@@ -4,6 +4,9 @@
             <h1 class="page-header">
                 <span>{{ 'events.edit.labels.edit_events' | translate }}</span>
                 <div class="pull-right button-group">
+                    <button class="btn btn-danger" ng-click="$ctrl.clearEvents()" translate>
+                        {{ 'events.edit.buttons.clear_events' }}
+                    </button>
                     <button class="btn btn-default" ng-click="$ctrl.goBack()" translate>
                         {{ 'events.edit.buttons.back' }}
                     </button>
